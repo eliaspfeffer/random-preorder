@@ -1,0 +1,31 @@
+[Unit]
+Description=random hardware waitlist (isolated application)
+After=network.target
+
+[Service]
+DynamicUser=yes
+WorkingDirectory=/opt/random-preorder
+ExecStart=/usr/bin/python3 /opt/random-preorder/server.py
+Environment=PUBLIC_ORIGIN=https://random.eliaspfeffer.de
+Environment=PORT=8864
+Environment=RANDOM_CONFIG=/etc/random-preorder/config.json
+StateDirectory=random-preorder
+UMask=0077
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+RestrictAddressFamilies=AF_INET AF_UNIX
+MemoryMax=96M
+CPUQuota=10%
+TasksMax=24
+
+[Install]
+WantedBy=multi-user.target

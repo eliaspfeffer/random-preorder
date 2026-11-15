@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>random. | Physik wird Zufall.</title>
+  <meta name="description" content="Ein geplanter Open-Source-Zufallsgenerator aus physikalischem Rauschen. 50 € geplante Anzahlung, 200–300 € geplanter Endpreis. Entwicklung ab 100 Vorbestellungen.">
+  <meta name="theme-color" content="#f4f5f1">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="wrap"><a class="wordmark" href="/" aria-label="random Startseite">random<span>.</span></a><a href="#idee">Die Idee ↗</a></header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="title">
+    <div class="intro">
+      <p class="eyebrow">Offene Hardware. Echter Zufall als Ziel.</p>
+      <h1 id="title">Physik wird<br>Zufall<span>.</span></h1>
+      <p class="lead">Weißes Rauschen rein. Zufallsbits raus.<br>Nachvollziehbar bis zur Schaltung.</p>
+      <a class="button" href="#start">Dabei sein ↗</a>
+    </div>
+    <figure><img src="/concept.jpg" width="1024" height="1024" fetchpriority="high" alt="Konzept eines kompakten Zufallsgenerators mit transparenter Abdeckung"><figcaption>Designkonzept · KI-Visualisierung · Kein fertiges Gerät</figcaption></figure>
+  </section>
+  <section class="plan wrap" id="idee" aria-labelledby="idea-title">
+    <div><h2 id="idea-title">Vertrauen ist gut.<br>Nachprüfen ist besser.</h2><p>Für Menschen, die Bitcoin und ihre Schlüssel selbst verstehen wollen.</p></div>
+    <div class="principles">
+      <article><h3>Physikalische Quelle</h3><p>Geplant: elektronisches Rauschen messen, aufbereiten und auf Fehler prüfen.</p></article>
+      <article><h3>Offen bis ins Detail</h3><p>Schaltung, Firmware und Messmethoden sollen offen veröffentlicht werden.</p></article>
+      <article><h3>Bits. Wörter. Deine Wahl.</h3><p>Ziel: Zufallsbits und daraus standardkonforme Passphrasen oder Seed-Wörter. Ausgabeformate werden erst entwickelt.</p></article>
+    </div>
+  </section>
+  <section class="launch wrap" id="start" aria-labelledby="start-title">
+    <div class="numbers"><span>Entwicklung startet bei</span><strong>100</strong><span>bezahlten Vorbestellungen</span></div>
+    <div class="reservation">
+      <h2 id="start-title">Die ersten 100.<br>Der Anfang von random.</h2>
+      <dl><div><dt>Geplante Anzahlung</dt><dd>50 €</dd></div><div><dt>Geplanter Endpreis / Stück</dt><dd>200–300 €</dd></div></dl>
+      <p>Die Anzahlung soll auf den Endpreis angerechnet werden. Zahlungsstart, Lieferziel, Versandkosten und Erstattungsbedingungen folgen.</p>
+      <p class="status">Noch keine Zahlungen möglich. Aktuell keine bezahlten Vorbestellungen.</p>
+      <form id="waitlist" hidden>
+        <label for="email">Zum Vorbestellstart benachrichtigen</label>
+        <div class="email-row"><input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="deine@email.de" required><button class="button" type="submit">Eintragen ↗</button></div>
+        <div class="trap" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <label class="consent"><input name="consent" type="checkbox" required><span>Ich möchte einmalig über den Vorbestellstart informiert werden. <a href="#datenschutz">Datenschutz</a>. Jederzeit widerrufbar.</span></label>
+      </form>
+      <p id="form-status" role="status" aria-live="polite">Warteliste öffnet bald. Fragen? <a href="mailto:elias@eliaspfeffer.de">Elias schreiben ↗</a></p>
+      <noscript>Für die Warteliste bitte JavaScript aktivieren oder Elias per E-Mail kontaktieren.</noscript>
+    </div>
+  </section>
+  <section class="questions wrap" aria-labelledby="questions-title">
+    <h2 id="questions-title">Vorher wissen.</h2>
+    <details><summary>Ist das Gerät schon fertig?</summary><p>Nein. random. ist ein Produktkonzept von Elias Pfeffer, Ingenieur für Mechatronik mit Elektronik-Hintergrund. Die Entwicklung soll bei 100 bezahlten Vorbestellungen beginnen. Ein Liefertermin steht noch nicht fest.</p></details>
+    <details><summary>Kann ich damit Bitcoin-Schlüssel erzeugen?</summary><p>Das ist ein Entwicklungsziel, keine geprüfte Funktion. Weißes Rauschen allein belegt keine sichere Entropie. Entropiequelle, Aufbereitung und Fehlererkennung müssen vermessen und unabhängig geprüft werden. Vorher nicht für echte Wallets oder andere Geheimnisse verwenden. Diese Website erzeugt keine Schlüssel.</p></details>
+    <details><summary>Wo ist der Open-Source-Code?</summary><p>Hardware und Firmware existieren noch nicht. Schaltpläne, Quellcode und Prüfmethoden sollen im Zuge der Entwicklung veröffentlicht werden. Ein öffentliches Repository und die Lizenz folgen.</p></details>
+    <details><summary>Was zahle ich heute?</summary><p>Nichts. Der Zahlungsstart folgt erst mit vollständigen Vorbestellbedingungen. Ein kostenloser Wartelisteneintrag ist keine Bestellung und zählt nicht zum Ziel von 100 bezahlten Vorbestellungen.</p></details>
+  </section>
+</main>
+<footer class="wrap"><div><a class="wordmark" href="/">random<span>.</span></a><p>Eine Idee von <a href="https://eliaspfeffer.de/">Elias Pfeffer ↗</a></p></div><nav aria-label="Rechtliches"><a href="#impressum">Impressum</a><a href="#datenschutz">Datenschutz</a><a href="mailto:elias@eliaspfeffer.de">Kontakt</a></nav></footer>
+<section class="legal wrap" id="impressum"><h2>Impressum</h2><p>Elias Pfeffer · <a href="mailto:elias@eliaspfeffer.de">elias@eliaspfeffer.de</a></p><p id="business-address">Vorschau: Anbieteranschrift wird vor Veröffentlichung ergänzt.</p></section>
+<section class="legal wrap" id="datenschutz"><h2>Datenschutz</h2><p>Verantwortlich: Elias Pfeffer, Kontaktdaten im Impressum. Bei Freischaltung der Warteliste speichern wir deine E-Mail-Adresse, Einwilligungsversion und den Zeitpunkt der Eintragung ausschließlich für eine Nachricht zum Vorbestellstart. Grundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Widerruf und Löschung: E-Mail an elias@eliaspfeffer.de.</p><p>Hosting ist auf einem Server in der EU geplant. Technische Verbindungsdaten werden zur Auslieferung und Missbrauchsabwehr verarbeitet (Art. 6 Abs. 1 lit. f DSGVO). Für die Eintragsbegrenzung werden IP-Adressen nur als täglich wechselnder Hash für höchstens zwei Tage gespeichert. Wartelistendaten werden nach Versand der Startnachricht oder spätestens nach zwölf Monaten innerhalb des nächsten stündlichen Löschlaufs gelöscht. Kein Tracking, keine Werbecookies, keine extern geladenen Schriften.</p><p>Du hast Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Beschwerde bei einer Datenschutzaufsichtsbehörde. Zahlungsdaten werden derzeit nicht erhoben.</p></section>
+</body>
+</html>
