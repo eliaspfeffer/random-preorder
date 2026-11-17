@@ -59,3 +59,5 @@ GitHub DNS check successful; HTTPS certificate remains in authorization_created 
 - Real ego lite browser: desktop1193×586 and mobile320×740 fit without overflow. Last Contact link keyboard-focused and visible. Keyboard Enter on preorder reaches expected PayPal hosted checkout. Preorder terms link opened via keyboard and full refund text verified.
 - Existing five Python checks and six countdown assertions pass. Impeccable advisory for grid is retained because CAD blueprint is the explicitly pinned brief.
 - HTTPS still fails certificate hostname validation; GitHub issuance remains authorization_created. Cannot enable HTTPS enforcement until issued. No real payment or refund tested.
+
+Refund method clarification: PayPal documents a 180-day transaction refund window (https://www.paypal.com/c2/cshelp/article/how-do-i-issue-a-refund-help101?locale.x=en_C2). Campaign can exceed this period; full seller reimbursement remains promised, using an agreed no-cost alternative when the original method is unavailable. No automatic post-deadline refund job or live payment reconciliation has been implemented.
