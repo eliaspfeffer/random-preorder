@@ -28,3 +28,7 @@ Review build works locally. It is not ready to accept paid preorders.
 ## PayPal continuation
 
 Business session verified. Created hosted payment link LNLWF5H4LCK44, SKU RANDOM-PREORDER-21, fixed21 EUR, quantity1, shipping-address collection. Description includes concept status, total200 EUR, remaining179 EUR, target200, end31Dec2027 deadline and full-refund promise if target missed. Local CTA Enter navigates to the genuine PayPal checkout and shows correct item and21 EUR. Expiry still blocks navigation. Existing5 Python tests and6 countdown assertions pass. No payment/capture/refund test performed. Checkout keeps account-wide merchant home kartoffelpost.net, deliberately not changed for unrelated products. Launch blockers remaining: public seller address, delivery terms and production host. The earlier personal-account and absent-checkout blockers above are superseded by this continuation.
+
+## English custom-domain deployment
+
+User corrected seller address to Pestalozzistrasse65,72762 Reutlingen,Germany; postcode checked against DAAD. Target delivery spring2028 confirmed. All website text and image annotations translated to English. GitHub Pages workflow deployed successfully; DNS random changed from the old A record to CNAME eliaspfeffer.github.io (TTL600). GitHub custom domain configured. At this checkpoint HTTP serves correct English homepage; HTTPS certificate is pending provider provisioning. PayPal edit session expired, so English description and merchant-home update have not yet been saved; renewed user login requested.

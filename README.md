@@ -2,7 +2,9 @@
 
 ![Current concept preview](docs/preview.png)
 
-**Review build — public shop launch incomplete.** This repository hosts the website source. It is not a live shop. GitHub Pages is not enabled because its terms exclude sites primarily facilitating commercial transactions.
+**Website:** https://random.eliaspfeffer.de/
+
+English static site deployed to GitHub Pages at the user’s explicit request. GitHub Pages terms exclude sites primarily facilitating commercial transactions; this hosting remains subject to that limitation. Target delivery is spring2028.
 
 
 Single-screen German CAD-style hardware concept preview. Legacy consent-based waitlist service retained, but not exposed by the new hero. Python standard library; no build or package installation.
@@ -39,4 +41,4 @@ The service stores email, timestamp and consent version in a private SQLite file
 
 ## Current preview (16 November 2026)
 
-Lovable regeneration is paused because credits ran out. Local implementation is available at http://127.0.0.1:8864. No paid upgrade, deployment or checkout activation was performed. `node tests/test_countdown.mjs` checks six countdown boundaries. See [verification results](docs/verification.md). Real ego-lite checks cover 320×740, desktop, keyboard CTA, zero/expired timer and blocked payment state. The CTA now opens the verified 21 EUR PayPal hosted checkout. No transaction has been made. Public hosting, seller address, fulfillment terms and operational counting/refunds remain incomplete.
+Lovable regeneration is paused because credits ran out. Local implementation is available at http://127.0.0.1:8864. No paid upgrade, deployment or checkout activation was performed. `node tests/test_countdown.mjs` checks six countdown boundaries. See [verification results](docs/verification.md). Real ego-lite checks cover 320×740, desktop, keyboard CTA, zero/expired timer and blocked payment state. The CTA now opens the verified 21 EUR PayPal hosted checkout. No transaction has been made. GitHub Pages and Porkbun DNS are configured; HTTPS provisioning and PayPal merchant settings are being finalized. Paid order counting and refunds are operational/manual, not automatic.

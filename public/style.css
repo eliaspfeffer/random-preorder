@@ -5,3 +5,4 @@
 @media(max-width:760px){.drawing-label{font-size:12px;letter-spacing:.04em}.specs,.refund{font-size:12px}.validation{font-size:12px}.validation br{display:initial}.validation br:after{content:" "}.sheet{min-height:100svh}main{gap:6px}footer{gap:6px}.deposit,#checkout-status{line-height:1.3}figcaption{font-size:12px}}
 @media(max-width:360px){h1{font-size:25px;line-height:1.08}}
 @media(max-width:360px){figure img{height:98px}}
+@media(max-width:360px){figure img{height:84px}}
