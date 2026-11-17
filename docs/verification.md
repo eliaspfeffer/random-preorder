@@ -38,3 +38,7 @@ Production static assets verified over HTTP: homepage, legal notice, stylesheet,
 ## PayPal final settings
 
 After renewed authentication, English product name and description saved successfully. Public hosted checkout shows21 EUR, target spring2028 and seller address72762 Reutlingen. Merchant homepage changed to https://random.eliaspfeffer.de/; persisted value verified after reloading PayPal settings. This setting applies to all hosted links/buttons on that merchant account. Public checkout back-link verified. No payment or refund executed. HTTPS issuance is still being monitored.
+
+## Last secure-domain check
+
+GitHub DNS check successful; HTTPS certificate remains in authorization_created after bounded monitoring. HTTPS request fails hostname certificate validation. No insecure TLS bypass used and HTTPS enforcement cannot yet be enabled (GitHub reports certificate does not exist yet). Public HTTP200 and static content verified; secure production browser flow remains unverified until certificate issuance. PayPal settings save and public English checkout/backlink are confirmed. Botmap cleanup returned Draft capture incomplete; PayPal tabs were retained as required.
