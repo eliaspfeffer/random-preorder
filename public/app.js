@@ -1,5 +1,5 @@
 import {remaining} from './countdown.mjs';
-const checkoutUrl = 'https://www.paypal.com/ncp/payment/LNLWF5H4LCK44';
+const checkoutUrl = 'https://www.paypal.com/ncp/payment/LNLWF5H4LCK44?locale.x=en_US';
 const button = document.querySelector('#preorder');
 const status = document.querySelector('#checkout-status');
 function tick() {
