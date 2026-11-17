@@ -1,4 +1,5 @@
 import {remaining} from './countdown.mjs';
+const checkoutUrl = 'https://www.paypal.com/ncp/payment/LNLWF5H4LCK44';
 const button = document.querySelector('#preorder');
 const status = document.querySelector('#checkout-status');
 function tick() {
@@ -9,7 +10,8 @@ function tick() {
 }
 button.addEventListener('click', () => {
   if (remaining(Date.now()).ended) { tick(); return; }
-  status.textContent = 'Noch kein Checkout verfügbar. Es wurde nichts bestellt oder bezahlt.';
+  status.textContent = 'Weiterleitung zu PayPal …';
+  window.location.assign(checkoutUrl);
 });
 tick();
 setInterval(tick, 1000);
