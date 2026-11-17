@@ -19,6 +19,9 @@ FILES = {'/': ('index.html', 'text/html; charset=utf-8'),
          '/style.css': ('style.css', 'text/css; charset=utf-8'),
          '/app.js': ('app.js', 'text/javascript; charset=utf-8'),
          '/concept.jpg': ('concept.jpg', 'image/jpeg'),
+         '/blueprint.png': ('blueprint.png', 'image/png'),
+         '/countdown.mjs': ('countdown.mjs', 'text/javascript; charset=utf-8'),
+         '/legal': ('legal.html', 'text/html; charset=utf-8'),
          '/favicon.svg': ('favicon.svg', 'image/svg+xml')}
 
 

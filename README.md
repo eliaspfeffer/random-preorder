@@ -1,6 +1,11 @@
 # random.
 
-Minimal German hardware concept page and consent-based waitlist. Python standard library; no build or package installation.
+![Current concept preview](docs/preview.png)
+
+**Review build — not accepting orders.** This repository hosts the website source. It is not a live shop. GitHub Pages is not enabled because its terms exclude sites primarily facilitating commercial transactions.
+
+
+Single-screen German CAD-style hardware concept preview. Legacy consent-based waitlist service retained, but not exposed by the new hero. Python standard library; no build or package installation.
 
 ## Run
 
@@ -10,9 +15,9 @@ Minimal German hardware concept page and consent-based waitlist. Python standard
 
 ## Scope and launch gates
 
-The page shows the requested concept, €50 proposed deposit, €200–300 estimated final price and 100 paid-order development threshold. Free waitlist entries never count as paid orders. Hardware, firmware, entropy measurements and wallet seed support do not exist yet. Concept image is marked as AI visualization. The site software is MIT licensed; hardware licensing is undecided.
+The page shows the requested concept, €21 deposit, €200 final price and 200 paid-order development threshold. Free waitlist entries never count as paid orders. Hardware, firmware, entropy measurements and wallet seed support do not exist yet. Concept image is marked as AI visualization. The site software is MIT licensed; hardware licensing is undecided.
 
-**Payments are not implemented or enabled.** Paddle excludes physical goods and crowdfunding. PayPal Business login, account approval for this preorder model, delivery/fulfillment terms, taxes, shipping, cancellation/refunds and campaign deadline remain unresolved. Never relabel an unsuitable payment as a donation or digital good. Do not publish a buy button until the provider and seller terms are valid.
+**Payments are not implemented or enabled.** Paddle excludes physical goods and crowdfunding. PayPal Business conversion/setup (existing personal session confirmed), account approval for this preorder model, delivery/fulfillment terms, taxes, shipping, cancellation/refunds remain unresolved. Campaign deadline is end of 31 December 2027 Europe/Berlin; the seller promises full deposit refunds if fewer than 200 paid preorders are reached. Never relabel an unsuitable payment as a donation or digital good. Do not publish a buy button until the provider and seller terms are valid.
 
 Before public launch: confirmed provider identity/address, final privacy hosting statement, TLS and DNS, off-host backup/restore check, authenticated business account and provider approval, sandbox checkout/capture/webhook/refund tests, and real mail confirmation for payment receipts. Launch notification emails are not automated; entries require an explicit operational send and deletion afterwards. Consent is collected but email ownership is not verified; do not interpret entries as verified customers.
 
@@ -30,4 +35,8 @@ The service stores email, timestamp and consent version in a private SQLite file
 
 ## Assets
 
-`public/concept.jpg` was generated with the built-in image tool; it is a visual concept, not a prototype photograph. Prompt is recorded in `image-prompt.txt`.
+`public/blueprint.png` was generated with the built-in image tool. It shows a concept, not a prototype photograph; display words are illustrative only. The earlier concept.jpg is retained as an unused previous asset.
+
+## Current preview (16 November 2026)
+
+Lovable regeneration is paused because credits ran out. Local implementation is available at http://127.0.0.1:8864. No paid upgrade, deployment or checkout activation was performed. `node tests/test_countdown.mjs` checks six countdown boundaries. See [verification results](docs/verification.md). Real ego-lite checks cover 320×740, desktop, keyboard CTA, zero/expired timer and blocked payment state. PayPal CTA currently explains that checkout is unavailable. A verified merchant checkout and payment-backed counting/refunds remain necessary before taking orders.
