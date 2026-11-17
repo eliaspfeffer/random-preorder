@@ -12,3 +12,5 @@ User-specified campaign: €200 final price, €21 credited deposit, 200 paid pr
 Single hero, text left/device right, CAD blueprint style. Minimal natural German text. Apple Design and Impeccable. Device illustration clearly marked concept and demonstration words.
 ## Evidence on Hand
 Existing local Python service and Lovable preview. Lovable paused for exhausted credits on 16 November 2026. Local preview continues existing authorized local work; no production deployment or paid upgrade.
+
+17 November correction: seller Elias Pfeffer, Pestalozzistraße65,72762 Reutlingen,Germany (postal code verified with DAAD). Target delivery spring2028, confirmed by user. Entire website English. User explicitly requests GitHub Pages and random.eliaspfeffer.de despite previously disclosed Pages commercial-use limitation.

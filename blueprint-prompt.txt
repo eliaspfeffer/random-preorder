@@ -8,3 +8,4 @@ Edit the display of this hardware concept: REMOVE ALL NUMBERS from every word on
 Source of sample vocabulary: https://raw.githubusercontent.com/bitcoin/bips/master/bip-0039/english.txt (first24 entries, verified16Nov2026). Public illustration only, never a wallet seed.
 
 Front-view revision: exact orthographic front, transparent case, electronics left45%, screen right55%. Q1/Q2 transistor shapes, R1–R6 resistors, C1–C6 capacitors, U1 MCU, U2 amplifier, U3 boost with L1 inductor, one AAA NiMH1.2V cell. Illustrated counts only, not validated BOM. No parts around screen. Preserve24 unnumbered demo words and separate NOISE OUT / SOURCE READOUT. Built-in image_gen asset exec-df411f85-d0ef-4917-b2f5-b7dbf1acf9fd.png.
+English-label edit17Nov2026 (built-in image_gen): Translate only RAUSCHQUELLE to NOISE SOURCE, MIKROCONTROLLER to MICROCONTROLLER, AAA-AKKU to AAA RECHARGEABLE. Preserve all other details. Result exec-a210ea90-2626-45db-bbd1-2c5cea768a92.png.

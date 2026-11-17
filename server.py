@@ -22,6 +22,7 @@ FILES = {'/': ('index.html', 'text/html; charset=utf-8'),
          '/blueprint.png': ('blueprint.png', 'image/png'),
          '/countdown.mjs': ('countdown.mjs', 'text/javascript; charset=utf-8'),
          '/legal': ('legal.html', 'text/html; charset=utf-8'),
+         '/legal.html': ('legal.html', 'text/html; charset=utf-8'),
          '/favicon.svg': ('favicon.svg', 'image/svg+xml')}
 
 
