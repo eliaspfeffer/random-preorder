@@ -6,3 +6,9 @@
 @media(max-width:360px){h1{font-size:25px;line-height:1.08}}
 @media(max-width:360px){figure img{height:98px}}
 @media(max-width:360px){figure img{height:84px}}
+
+.campaign .target{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:4px}.target strong{font-weight:500}.target>span,.verified,.deadline{font-size:12px;color:var(--muted)}.verified{margin:4px 0 8px}.deadline{margin:0 0 4px}.campaign progress{display:block;width:100%;height:4px;appearance:none;border:0;border-radius:0;background:var(--rule,#385368);color:var(--ink,#eff8ff)}.campaign progress::-webkit-progress-bar{background:#385368}.campaign progress::-webkit-progress-value{background:#b9e1f7}.campaign progress::-moz-progress-bar{background:#b9e1f7}.refund a{color:inherit;text-underline-offset:3px}
+
+#checkout-status:empty{display:none}
+@media(min-width:761px) and (max-height:640px){h1{font-size:34px}.campaign{margin-top:8px}.refund{margin-top:6px}.verified{margin-bottom:5px}}
+@media(max-width:360px){.refund{margin-top:5px}.verified{margin-bottom:4px}main{gap:5px}.origin div{gap:2px}}

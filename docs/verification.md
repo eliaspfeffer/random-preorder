@@ -42,3 +42,20 @@ After renewed authentication, English product name and description saved success
 ## Last secure-domain check
 
 GitHub DNS check successful; HTTPS certificate remains in authorization_created after bounded monitoring. HTTPS request fails hostname certificate validation. No insecure TLS bypass used and HTTPS enforcement cannot yet be enabled (GitHub reports certificate does not exist yet). Public HTTP200 and static content verified; secure production browser flow remains unverified until certificate issuance. PayPal settings save and public English checkout/backlink are confirmed. Botmap cleanup returned Draft capture incomplete; PayPal tabs were retained as required.
+
+
+17 November — HTTPS follow-up and preorder disclosure (pending):
+- Confirmed custom-domain DNS is correctly pointed at GitHub Pages. HTTPS fails hostname verification; GitHub API reports certificate `authorization_created`.
+- Removed and re-added the Pages custom domain once following GitHub certificate troubleshooting. Domain restored to random.eliaspfeffer.de. Enforcing HTTPS remains rejected by GitHub until issuance completes. No TLS checks bypassed.
+- Prepared explicit full-amount refund disclosure for failed development/production, including paid balance/shipping, on the hero and preorder terms. Clarified private use of customer email/shipping data.
+- Existing Python and countdown checks pass. Browser QA and publication of these copy changes remain pending while the assigned browser is handed to Elias for PayPal login.
+- No actual paid preorder total verified. No automatic public payment counter exists. Do not report zero or infer paid orders from button clicks.
+
+
+17 November — signed-in PayPal and campaign verification:
+- Correct merchant account: Elias Pfeffer. PayPal activity filters explicitly ALL (active + archived), ALL_TRANSACTIONS, CURRENT_YEAR 2026, all currencies. No transactions returned. Campaign was created November 2026: zero paid preorders verified at this check. Public count is a dated manual snapshot, explicitly not live. No stock/capacity limit is inferred from the 200-order development goal.
+- Saved PayPal description promises full refund of amounts paid if goal missed or development/production/delivery fails; includes balance/shipping without deductions. Reloaded merchant editor confirms persisted description.
+- Buyer guest-card form exposes Email, billing address, and separate Shipping address after unchecking Ship to billing address. Cancelled without entering personal/card data or submitting payment.
+- Real ego lite browser: desktop1193×586 and mobile320×740 fit without overflow. Last Contact link keyboard-focused and visible. Keyboard Enter on preorder reaches expected PayPal hosted checkout. Preorder terms link opened via keyboard and full refund text verified.
+- Existing five Python checks and six countdown assertions pass. Impeccable advisory for grid is retained because CAD blueprint is the explicitly pinned brief.
+- HTTPS still fails certificate hostname validation; GitHub issuance remains authorization_created. Cannot enable HTTPS enforcement until issued. No real payment or refund tested.

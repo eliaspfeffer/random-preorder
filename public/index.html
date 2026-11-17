@@ -5,7 +5,7 @@
 <title>random. · Physical white noise, open hardware</title>
 <meta name="description" content="An open hardware concept: physical white noise, one visible circuit board, 24 seed words. €200 total, €21 deposit. Goal: 200 preorders by 31 December 2027.">
 <meta name="theme-color" content="#0b2238">
-<link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css?v=en4">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css?v=en5">
 <script type="module" src="./app.js?v=en4"></script>
 </head>
 <body>
@@ -15,19 +15,24 @@
 <main id="main">
 <div class="copy">
 <h1 lang="en">Get an open-source Bitcoin seed generator powered by physical white noise.</h1>
-<p class="lead">One circuit board you can inspect.<br>24 words on the device itself.</p>
+<p class="lead">One visible circuit board. 24 words on-device.</p>
 <p class="specs">Planned: 1 × AAA rechargeable · Noise output<br>Read-only source interface · Open source</p>
 <div class="purchase"><p class="price">€200 <span>Total price per device</span></p>
 <button id="preorder" type="button"><span>Preorder for €21</span><span class="paypal" aria-label="with PayPal">PayPal</span></button>
 <p class="deposit">€21 deposit · €179 later · Target: spring 2028.</p>
-<p id="checkout-status" role="status">Continue to PayPal · €21 deposit.</p></div>
-<div class="campaign"><p class="target">200 preorders by 31 December 2027</p>
+<p id="checkout-status" role="status"></p>
+<p class="refund">Full refund if the goal is missed or we cannot deliver. <a href="./legal.html#preorders">Preorder terms</a>.</p></div>
+<div class="campaign"><p class="target"><strong>0 of 200 preorders</strong><span>0% · 200 to go</span></p>
+<!-- shortcut: manually verified PayPal snapshot; add server-side payment reconciliation before claiming live counts. -->
+<progress value="0" max="200" aria-label="Paid preorders toward the 200-order goal">0 of 200</progress>
+<p class="verified">PayPal checked <time datetime="2026-11-17T13:15:41+00:00">17 Nov 2026</time> · Not a live count</p>
+<p class="deadline">Deadline: 31 December 2027</p>
 <div class="countdown" role="timer" aria-label="Time remaining until the end of 31 December 2027, Berlin time"><div><strong id="days">—</strong><span>Days</span></div><span class="colon" aria-hidden="true">:</span><div><strong id="minutes">—</strong><span>Minutes</span></div><span class="colon" aria-hidden="true">:</span><div><strong id="seconds">—</strong><span>Seconds</span></div></div>
-<p class="refund">If we miss the goal, your €21 deposit is refunded in full.</p>
+
 </div>
 </div>
 <figure><img src="./blueprint.png?v=en-3" width="1536" height="1024" fetchpriority="high" alt="Front-view concept: a few electronic components and an AAA rechargeable cell on the left, a 24-word demo display on the right. Clear enclosure, oscilloscope output and separate read-only source interface."><figcaption>Concept illustration · Demo words. Never use for a wallet.</figcaption></figure>
 </main>
-<footer><div class="origin"><span class="flag" aria-hidden="true"><i></i><i></i><i></i></span><div><strong>Made in Germany <span>· planned</span></strong><span>By German engineers · Radio-frequency engineering</span></div></div><p class="validation">Development starts at 200 preorders.<br>Wallet use requires independent validation.</p><nav aria-label="Legal"><a href="./legal.html#legal-notice">Legal notice</a><a href="./legal.html#privacy">Privacy</a><a href="mailto:elias@eliaspfeffer.de">Contact</a></nav></footer>
+<footer><div class="origin"><span class="flag" aria-hidden="true"><i></i><i></i><i></i></span><div><strong>Made in Germany <span>· planned</span></strong><span>By German RF engineers</span></div></div><p class="validation">Development starts at 200 preorders.<br>Wallet use requires independent validation.</p><nav aria-label="Legal"><a href="./legal.html#legal-notice">Legal notice</a><a href="./legal.html#privacy">Privacy</a><a href="mailto:elias@eliaspfeffer.de">Contact</a></nav></footer>
 </div>
 </body></html>
